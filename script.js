@@ -23,3 +23,4 @@ setInterval(updateClock, 1000);
 
 // Pierwsze wywołanie, aby natychmiast zaktualizować zegar i datę
 updateClock();
+
