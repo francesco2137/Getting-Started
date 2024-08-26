@@ -20,10 +20,9 @@ img {
     position: absolute; /* Pozycjonowanie w stosunku do rodzica (image-container) */
     top: 10px; /* Odstęp od góry */
     left: 10px; /* Odstęp od lewej */
-    color: black; /* Kolor tekstu */
+    color: gray; /* Kolor tekstu */
     font-family: Arial, sans-serif; /* Czcionka */
     font-size: 24px; /* Rozmiar czcionki */
-    background: rgba(255, 255, 255, 0.7); /* Tło z przezroczystością */
     padding: 5px;
     border-radius: 5px; /* Zaokrąglenie rogów */
     z-index: 10; /* Ustala kolejność nakładania */
