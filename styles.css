@@ -3,25 +3,29 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f0f0f0; /* Tło strony, możesz dostosować */
+    background-color: #f0f0f0; /* Tło strony */
+}
+
+.image-container {
+    position: relative; /* Umożliwia pozycjonowanie względne dla dziecka */
 }
 
 img {
-    width: 100%; /* Dopasowuje zdjęcie do szerokości kontenera */
-    height: auto; /* Utrzymuje proporcje zdjęcia */
+    width: 100%; /* Dopasowuje obraz do szerokości kontenera */
+    height: auto; /* Utrzymuje proporcje obrazu */
     display: block;
-    margin: 0 auto; /* Wyśrodkowuje zdjęcie */
-    position: relative; /* Umożliwia absolutne pozycjonowanie zegara w stosunku do zdjęcia */
 }
+
 .clock-container {
-    position: absolute;
-    bottom: 1375px;
-    right: 900px;
-    font-size: 40px;
-    color: gray;
-    font-family: Arial, sans-serif;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-    z-index: 10;
+    position: absolute; /* Pozycjonowanie w stosunku do rodzica (image-container) */
+    top: 10px; /* Odstęp od góry */
+    left: 10px; /* Odstęp od lewej */
+    color: black; /* Kolor tekstu */
+    font-family: Arial, sans-serif; /* Czcionka */
+    font-size: 24px; /* Rozmiar czcionki */
+    background: rgba(255, 255, 255, 0.7); /* Tło z przezroczystością */
+    padding: 5px;
+    border-radius: 5px; /* Zaokrąglenie rogów */
+    z-index: 10; /* Ustala kolejność nakładania */
 }
+
