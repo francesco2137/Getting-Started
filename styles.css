@@ -23,7 +23,7 @@ img {
     left: 500px; /* Odstęp od lewej */
     color: gray; /* Kolor tekstu */
     font-family: Arial, sans-serif; /* Czcionka */
-    font-size: 17px; /* Rozmiar czcionki */
+    font-size: 25px; /* Rozmiar czcionki */
     padding: 5px;
     border-radius: 5px; /* Zaokrąglenie rogów */
     z-index: 10; /* Ustala kolejność nakładania */
