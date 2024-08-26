@@ -12,8 +12,7 @@ body {
 }
 
 img {
-    width: 100%; /* Dopasowuje obraz do szerokości kontenera */
-    height: auto; /* Utrzymuje proporcje obrazu */
+
     display: block;
 }
 
