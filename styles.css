@@ -23,4 +23,5 @@ img {
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
+    z-index: 10;
 }
