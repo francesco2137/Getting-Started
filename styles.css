@@ -19,11 +19,11 @@ img {
 
 .clock-container {
     position: absolute; /* Pozycjonowanie w stosunku do rodzica (image-container) */
-    top: 10%; /* Odstęp od góry */
-    left: 25%; /* Odstęp od lewej */
+    top: 12vh; /* Odstęp od góry */
+    left: 13.5vw; /* Odstęp od lewej */
     color: gray; /* Kolor tekstu */
     font-family: Arial, sans-serif; /* Czcionka */
-    font-size: 25px; /* Rozmiar czcionki */
+    font-size: 1.1vw; /* Rozmiar czcionki */
     padding: 5px;
     border-radius: 5px; /* Zaokrąglenie rogów */
     z-index: 10; /* Ustala kolejność nakładania */
