@@ -1,11 +1,11 @@
 .clock-container {
     position: absolute;
-    bottom: 1375px;
-    right: 900px;
-    font-size: 40px;
+    bottom: 1375 px;
+    right: 900 px;
+    font-size: 40 px;
     color: gray;
     font-family: Arial, sans-serif;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10 px;
+    border-radius: 5 px;
     display: inline-block;
 }
