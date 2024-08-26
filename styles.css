@@ -1,11 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0; /* Tło strony, możesz dostosować */
+}
+
+img {
+    width: 100%; /* Dopasowuje zdjęcie do szerokości kontenera */
+    height: auto; /* Utrzymuje proporcje zdjęcia */
+    display: block;
+    margin: 0 auto; /* Wyśrodkowuje zdjęcie */
+    position: relative; /* Umożliwia absolutne pozycjonowanie zegara w stosunku do zdjęcia */
+}
 .clock-container {
     position: absolute;
-    bottom: 1375 px;
-    right: 900 px;
-    font-size: 40 px;
+    bottom: 1375px;
+    right: 900px;
+    font-size: 40px;
     color: gray;
     font-family: Arial, sans-serif;
-    padding: 10 px;
-    border-radius: 5 px;
+    padding: 10px;
+    border-radius: 5px;
     display: inline-block;
 }
